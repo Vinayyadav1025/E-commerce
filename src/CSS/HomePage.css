@@ -1,0 +1,199 @@
+/* CSS/Slider.css */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.conteiner{
+    display: flex;
+    flex-direction: column;
+    min-height: 100%;
+}
+/* background image */
+.background-image {
+/* height: 30rem; */
+background-image: url("../image/starfall-gif-46.gif"); /* Use your desired image path here */
+background-size: cover;
+display: flex;
+justify-content: space-between;
+align-items: center;
+object-fit: cover;
+}
+
+/* slider */
+.slider{
+display: flex;
+margin-left: 30px;
+height: 30rem;
+align-items: center;
+/* border: 2px solid red; */
+z-index: 0;
+    margin-top: 40px;
+}
+/* quote */
+.quote{
+display: flex;
+width: 29rem;
+justify-content: center;
+color: white;
+font-size: 25px;
+/* border: 2px solid red; */
+}
+
+/* weather */
+.weather{
+/* display: flex; */
+justify-content: right;
+color: blue;
+/* border: 2px solid red; */
+margin-right: 30px;
+}
+
+/* Home Item Cart*/
+/* .home-card{
+    background-color: rgba(233, 221, 221, 0.192);
+} */
+.grid.card {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* Three columns with equal width */
+    /* grid-template-rows: repeat(5, 1fr); Five rows with equal height */
+    gap: 100px; /* Add a gap of 20px between each grid item (card) */
+    /* border: 5px solid red; */
+    margin: 60px 60px;
+    /* background-color: red; */
+}
+/* Home item cart Box */
+.grid.card > div {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: flex-start;
+    border: 3px solid rgb(59, 58, 58);
+    height: 500px;
+    border-radius: 15px;
+    background: linear-gradient(89.4deg, rgb(74, 77, 103) -4.3%, rgb(119, 125, 165) 102.1%);
+    width: 350px;
+    
+}
+
+  /* Image inside the card */
+
+.home-item-image{
+    border-radius: 13px 13px 0px 0px;
+}
+.grid.card img {
+    width: 344px;
+    height: 240px;
+    object-fit: cover;
+    border-radius: 13px 13px 0px 0px;
+}
+.card-text{
+    margin: 3px;
+    color: white;
+}
+.title{
+    display: flex;
+    font-size: 15px;
+    justify-content: center;
+    margin: 20px 0px 20px ;
+}
+.price{
+    display: flex;
+    gap: 20px;
+    margin: 5px 5px 5px px;
+    font-size: 20px;
+}
+.local-price{
+    text-decoration: line-through; 
+}
+.original-price{
+    font-size: 20px;
+    margin-top: 5px;
+}
+.emi{
+    margin-top: 10px;
+    font-size: 20px;
+}
+.home-item-button{
+    display: inline-block;
+    text-align: center;
+}
+.home-item-buy{
+    background-color: rgb(39, 134, 39);
+    padding: 10px;
+    border-radius: 10px;
+}
+.home-item-buy:hover{
+    background-color: green;
+
+}
+/* Footer  */
+
+.home-buttom{
+    margin-top: auto;
+    background-color: #ccc;
+    text-align: center;
+}
+.footer-content{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    background-color: #1d262d;
+    margin-top: 300px;
+}
+/* Buttom.css */
+
+.content_1 ul{
+    display: flex;
+    flex-direction: column;
+    margin: 30px;
+    gap: 10px;
+    list-style: none;
+}
+.content_1 ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+}
+
+/* content 2  */
+.content_2 ul{
+    display: flex;
+    flex-direction: column;
+    margin: 30px;
+    gap: 10px;
+    list-style: none;
+}
+.content_2 ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+}
+
+/* content 3  */
+.content_3 ul{
+    display: flex;
+    flex-direction: column;
+    margin: 30px;
+    gap: 10px;
+    list-style: none;
+    
+}
+.content_3 ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+}
+/* content 4  */
+.content_4 ul{
+    display: flex;
+    flex-direction: column;
+    margin: 30px;
+    gap: 10px;
+    list-style: none;
+}
+.content_4 ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+}
