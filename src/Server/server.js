@@ -8,8 +8,8 @@ const port = 5000; // Replace with your desired port
 app.use(express.json());
 app.use(cors()); // Enable CORS for all routes
 
-const apiEndpoint = 'https://platform.openai.com/docs/guides/gpt/chat-completions-api';
-const apiKey = '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'; // Replace with your actual API key
+const apiEndpoint = 'https://makersuite.google.com/app/apikey';
+const apiKey = 'AIzaSyAu_1WZC_lBP2KVVbK_HiKhmtXlGyC7BT4'; // Replace with your actual API key
 
 app.post('/api/send-message', async (req, res) => {
   const { message } = req.body;

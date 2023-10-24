@@ -6,6 +6,7 @@ const quotes = [
   "The future belongs to those who believe in the beauty of their dreams.",
   "Your time is limited, don't waste it living someone else's life.",
   "You miss 100% of the shots you don't take.",
+  "Your time is limited. so don't waste it living someone else's life."
 ];
 
 const Quote = () => {
@@ -18,7 +19,7 @@ const Quote = () => {
 
     const timer = setTimeout(() => {
       setCurrentLetterIndex((prevIndex) => (prevIndex + 1) % (quoteLength + 1));
-    }, 100); // Adjust the speed (100ms for each letter)
+    }, 300); // Adjust the speed (100ms for each letter)
 
     if (currentLetterIndex === quoteLength) {
       // Quote is complete, move to the next quote

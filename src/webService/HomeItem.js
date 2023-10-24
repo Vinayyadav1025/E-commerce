@@ -1,7 +1,7 @@
 const cardData = [
     {
         imageSrc: window.location.origin + '/images/sliderImage/c3.jpg',
-        title: 'This is Electronic Mobile. It have best price for sale',
+        title: 'Thle. It have best price for sale',
         price: '100',
         localPrice: '5000',
         discount:'10',
@@ -228,6 +228,14 @@ const cardData = [
         title: 'This is Electronic Mobile. It have best price for sale',
         price: '100',
         localPrice: '5000',
+        discount:'10',
+        emi: '$20/month',
+    },
+    {
+        imageSrc: window.location.origin + '/images/sliderImage/c3.jpg',
+        title: 'Thle. It have best price for sale',
+        price: '100',
+        localPrice: '10000',
         discount:'10',
         emi: '$20/month',
     },
